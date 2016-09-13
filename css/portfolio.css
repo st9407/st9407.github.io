@@ -1,0 +1,85 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+
+
+.headline{
+	position: relative;
+    display: inline-block;
+    border: 1px solid #252525;
+    margin-bottom: 100px;
+    color: #252525;
+    font: 12px 'PT Sans', sans-serif;
+    line-height: 20px;
+    text-align: center;
+}
+
+.headline p {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    left: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.headline p span {
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.text-center{
+	text-align: center;
+}
+
+h1{
+	padding: 20px 15px;
+    margin-bottom: 0;
+    line-height: 33px;
+    margin-top: 0;
+}
+
+/*
+.portfolio{
+
+    background-color: #f6f6f6;
+	
+}
+*/
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+
+.personal-details{
+	list-style: none;
+	padding: 0;
+	margin-top: 15px;
+}
+
+.personal-details li{
+    font-size: 18px;
+	padding: 9px 0;
+    border-bottom: 1px solid #e1e1e1;
+    color: #252525;
+}
+
+@media (min-width: 768px) {
+
+  .profile{
+  	 margin-top: 50px;
+  }
+}
+
+.profile p{
+	font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+

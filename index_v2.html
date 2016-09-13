@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/2-col-portfolio.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Parallax.js -->
+    <script src="js/jquery.scrolling-parallax.js"></script>
+
+
+    <script type="text/javascript">
+$(function(){
+    //.parallax(xPosition, speedFactor, outerHeight) 設定選項:
+    //xPosition - 水平位置
+    //speedFactor - 滾動速度
+    $('.parallax').parallax("50%", 0.1);
+});
+</script>
+<style type="text/css">
+/*.parallax{background:url(img/cover2.png) 20%  no-repeat fixed;color:white;height:767px;margin:0 auto;padding:0;}*/
+
+.parallax.full-screen {
+
+}
+
+.parallax.parallax-enabled {
+    background-attachment: fixed !important;
+}
+
+
+.parallax {
+    background-image: url(img/cover3.png);
+    background-position: 49% 0px;
+    min-height: 700px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.parallax-overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+
+.parallax-content-inner {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin-top: -65px;
+    z-index: 3;
+}
+
+.parallax-content-inner.row{
+
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+    <div class="parallax full-screen parallax-enabled">
+        <div class="parallax-overlay" style="background-image:url(img/pattern.png);"></div>
+
+            <div class="parallax-content-inner">
+
+                        <div class="row">
+                            <div class="span12 text-center">
+
+                                <div class="headline">
+
+                                    <h1>Yu-Cheng Liu</h1>
+                                    <p>
+                                        <span>Frontend Engineer</span>
+                                    </p>
+
+                                </div>
+                                <!-- end .headline -->
+
+                            </div>
+                            <!-- end .span12 -->
+                        </div>
+                        <!-- end .row -->
+
+                    </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container portfolio">
+
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+              <div  class="headline">  
+                <p>
+                <span>Who am I?</span>
+                </p>
+                <h1>個人資料</h1>
+              </div>  
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-7 portfolio-item"> 
+               <div class="row">
+                  <div class="col-md-4 col-sm-4">       
+                     <img class="img-responsive" id="pro-pic" src="img/pro.jpg" alt="">
+                  </div>
+               
+
+                  <div class="col-md-8 col-sm-8">
+                    <ul class="personal-details">
+                        <li>姓名： 劉育承</li>
+                        <li>年齡： 23</li>
+                        <li>電話： (886)980-327-793</li>
+                        <li>Email：<a href="mailto:st9407@hotmail.com">st9407@hotmail.com</a>
+                        </li>
+                    </ul> 
+                  </div>                 
+            
+                </div>    
+            </div>  
+
+            <div class="col-md-5 profile">
+                <h4>個人簡介</h4>
+                <p>我在大學就讀了商務科技管理系，這個科系屬於跨領域的科系，同時學習了程式設計和行銷企劃的能力。而在大學最後兩年，我因為很喜歡程式設計的邏輯思考和解決問題時的成就感，所以在商務和資管兩個學程模組當中，選擇了資管模組來作為未來學習的方向。</p>
+                <p>在專業能力方面，除了學校所學的基礎知識外，我常透過網路和書籍學習Web程式，了解前後端如何溝通，現在能夠透過PHP存取資料庫內容，以及使用Ajax向後端傳遞UI的內容和Json資料檔案。</p>
+                <p>目前架設過教會的會員網站，主要負責影音串流伺服器的設定和網頁播放器的建置，過程中雖然不時會碰上一些不曾用過的技術，不過我會透過察看技術文件或從Stackoverflow找尋答案，而其中我認為最困難的就是，要按照Windows、Android、iOS各自支援的串流格式做開發，在突破這個難題的過程中，我了解到不能只看著大部分的使用者來設計，應該要更全面地分析後再開發。</p>
+                <p>大學期間因為想要挑戰自我，曾與幾位同學一起參加過多次全國性的行銷企劃競賽，期間入選過多次決賽，成績最好的一次獲得了全國三名。這個過程讓我學習到在一個團隊中如何彼此搭配和溝通，以及作為領導者如何與每個人協調的能力。</p>
+                <p>課餘時間我會在教會當中學習，在這裡我學習到積極和正確面對人生的態度，這使我能夠不畏懼地面對挑戰，謙虛地接受自己的不足。過程中我參與了各種活動的策劃，以及協助教會架設網站，因為經常和不同年齡層的人接觸，所以能學習到許多在校內無法得到的知識和經驗。</p>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+
+
+</body>
+
+</html>
